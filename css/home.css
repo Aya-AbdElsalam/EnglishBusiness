@@ -1,0 +1,37 @@
+/* about section */
+.personalImg:hover img:first-of-type {
+    transform: translate(10px, 20px);
+}
+
+.personalImg:hover img:last-of-type {
+    scale: 1.1;
+}
+
+/*  video section*/
+.overview {
+    background-image: url(../assests/overView.webp);
+    background-size: cover;
+    height: 80vh;
+}
+
+.overview-video {
+    margin-top: -63vh;
+    margin-bottom: 80px;
+    width: 75vw;
+    height: 80vh;
+}
+
+/* reviews section */
+.fa-quote-left {
+    font-size: 83px !important;
+    margin-bottom: -67px;
+    color: gainsboro;
+}
+
+.carousel-caption {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+
+}

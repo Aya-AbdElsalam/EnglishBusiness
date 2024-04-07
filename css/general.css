@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #00bf73;
+    width: fit-content;
+}
+
+.border-success {
+    border-color: #00bf73 !important;
+}
+
+.bg-success {
+    background-color: #00bf73;
+}
+
+.text-success {
+    color: #00bf73 !important;
+}
+
+.overlay {
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* navbar */
+.user i {
+    cursor: pointer;
+}
+
+.modal-backdrop {
+    z-index: 5 !important;
+}
+
+.user i:hover {
+    background-color: #00bf73 !important;
+    color: black !important;
+}
+
+.nav-item {
+    width: fit-content !important;
+}
+
+#sign-in {
+    display: none;
+}

@@ -1,0 +1,33 @@
+.courses a,
+.courses a.btn {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.courses a.btn:hover {
+  background-color: #0b889e;
+  color: white;
+}
+
+.courses a:hover {
+  background-color: #0b889e;
+  color: white;
+}
+
+.courses a:focus,
+.courses a:active {
+  background-color: #099f92;
+  color: white;
+}
+
+.courses button.btn {
+  background-color: #0b889e;
+  color: white;
+
+}
+
+.courses button.btn:hover {
+  background-color: #099f92;
+  color: white;
+}
