@@ -111,17 +111,17 @@
     <div class="row">
       <div class="col-md-3">
         <div class=" border rounded-4 m-auto p-3">
-          <p class="text-center fw-bold fs-5 my-4">Cycle Weeks</p>
+          <p class="text-center fw-bold fs-5 my-4">Cycle Weeks </p>
           <div id="weeksContainer" class="p-1 m-auto"></div>
           <div id="daysContainer"></div>
-          <a class="btn bg-success rounded-4 w-100 text-light fw-bold" href="./subscription.html">subscription</a>
+          <a class="btn-sub btn bg-success rounded-4 w-100 text-light fw-bold" href="./subscription.html">subscription</a>
         </div>
       </div>
       <div class="col-md-8 ">
         <img class="rounded-5" src="https://writeminer.com/wp-content/uploads/2022/06/english-course.jpg"
           alt="course img" width="100%">
         <div>
-          <h3 class="border-start border-4 ps-2 border-dark fs-4 fw-bold my-3">Description</h3>
+          <h3 class="border-start border-success border-4 ps-2 border-dark fs-4 fw-bold my-3">Description</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus non quod voluptates fugiat quidem
             illum nobis, nihil at, laboriosam praesentium ut nisi. Consequatur a quaerat consectetur enim in magnam?</p>
         </div>
@@ -167,7 +167,7 @@
       let weeksContainer = document.querySelector('#weeksContainer');
       let out = "<ul class='d-flex flex-column p-0'>";
       for (let week of weeks) {
-        out += `<li>
+        out += `<li class="courses">
           <a class="btn text-dark d-block fw-bold" role="button" onclick="toggleDays('${week.name}')">
             ${week.name}
           </a></li>
@@ -183,7 +183,7 @@
       let out = "<ul class='border rounded d-flex flex-column p-0'>";
       for (let day in week.content) {
         out +=
-          `<li><a href="#" class=' text-dark d-block fw-bold'>${week.content[day]}</a></li>`;
+          `<li class="courses"><a href="#" class=' text-dark d-block fw-bold'>${week.content[day]}</a></li>`;
       }
       out += "</ul>";
       return out;
@@ -197,8 +197,6 @@
         daysContainer.style.display = "none";
       }
     }
-
-    // عرض الأسابيع عند تحميل الصفحة
     displayWeeks();
   </script>
 

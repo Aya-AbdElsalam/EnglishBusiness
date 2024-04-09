@@ -1,3 +1,16 @@
+/* hero section */
+.hero-section{
+background-image: url(https://i.pinimg.com/originals/17/dc/91/17dc912f3f7cbfa87bc11282ba2cc468.jpg) ;
+background-size: cover;
+height: 100vh;
+border: 1px solid #e6e5e5;
+border-radius: 10px;
+}
+
+.hero-section a:hover{
+    background-color: #00bf73 !important;
+    color: white !important;
+}
 /* about section */
 .personalImg:hover img:first-of-type {
     transform: translate(10px, 20px);

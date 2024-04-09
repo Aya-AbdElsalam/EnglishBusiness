@@ -1,33 +1,29 @@
-.courses a,
-.courses a.btn {
+.courses >a,
+.courses >a.btn {
   text-decoration: none;
   padding: 5px;
   margin: 5px;
 }
 
-.courses a.btn:hover {
-  background-color: #0b889e;
+.courses >a.btn:hover {
+  background-color: #00bf73;
   color: white;
 }
 
-.courses a:hover {
-  background-color: #0b889e;
+.courses >a:hover {
+  background-color: #00bf73;
   color: white;
 }
 
-.courses a:focus,
-.courses a:active {
-  background-color: #099f92;
+.courses >a:focus,
+.courses >a:active {
+  background-color: #00bf73;
   color: white;
 }
 
-.courses button.btn {
-  background-color: #0b889e;
-  color: white;
 
-}
-
-.courses button.btn:hover {
-  background-color: #099f92;
-  color: white;
+.btn-sub:hover {
+  background-color: white !important;
+  color: #00bf73 !important;
+  border: 1px solid #00bf73 !important;
 }
