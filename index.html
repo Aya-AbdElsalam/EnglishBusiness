@@ -19,7 +19,6 @@
     <div class="container-fluid ">
       <a class="navbar-brand text-success fw-bold fs-3" href="../index.html">English
         Business</a>
-
       <div class=" flex-grow-1 flex-grow-md-0" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto  gap-md-3 fw-bold d-flex flex-row justify-content-evenly "
           style="font-size: 16px;">
@@ -29,10 +28,7 @@
           <li class="nav-item">
             <a class="nav-link" href="../pages/Courses/Courses.html">Courses</a>
           </li>
-
-
         </ul>
-
       </div>
       <button class="user btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <i class="fa-solid fa-user fs-5 text-success rounded-circle bg-dark p-2"></i>
@@ -60,11 +56,12 @@
                 </div>
                 <p class="text-decoration-underline text-success" id="go-to-sign-in" style="cursor: pointer;">have
                   account?sign in</p>
+                <div class="modal-footer">
+                  <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">REGISTER</button>
+                </div>
               </form>
             </div>
-            <div class="modal-footer">
-              <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">REGISTER</button>
-            </div>
+
           </div>
           <div class="modal-content" id="sign-in">
             <div class="modal-header">
@@ -84,40 +81,37 @@
                 </div>
                 <p class="text-decoration-underline text-success" id="go-to-register" style="cursor: pointer;">don't
                   have account?register</p>
+                <div class="modal-footer">
+                  <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">SIGN IN</button>
+                </div>
               </form>
-            </div>
-            <div class="modal-footer">
-              <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">SIGN IN</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     </div>
   </nav>
-<section></section>
+  <section></section>
   <!-- end navbar -->
   <!-- start hero section -->
   <div class="container hero-section " style="margin-top: 100px;">
-    <div class=" d-flex align-items-center justify-content-center m-auto p-4 h-100 w-100" >
+    <div class=" d-flex align-items-center justify-content-center m-auto p-4 h-100 w-100">
       <div class="col-md-6 ">
         <h2 class=" fw-bold text-light my-3" style="font-size: 40px;">Back to school!
         </h2>
-        <p class="fs-5 fw-bold text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        <p class="fs-5 fw-bold text-light ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt
           ut
           Build English Skills for Business. Improve your ability to speak, write and understand English in professional
           settings.
-
         </p>
-        <a class="btn bg-light rounded-4 w-50 text-success fw-bold link-offset-1-hover" href="../pages/Courses/Courses.html">Start your
+        <a class="btn bg-light rounded-4 w-50 text-success fw-bold link-offset-1-hover"
+          href="../pages/Courses/Courses.html">Start your
           career</a>
-
       </div>
-  
     </div>
   </div>
-
   <!-- end hero section -->
   <!-- start about -->
   <div class="container my-5">
@@ -215,16 +209,16 @@
     ];
     document.getElementById("reviews").innerHTML = reviews.map((e, index) => {
       // stars rating for each review
-  let stars = '';
-for (let i = 0; i < 5; i++) {
-  if (i < e.rate) {
-  
-    stars += '<i class="fa-solid fa-star" style="color: rgb(250, 230, 4);"></i>';
-  } else {
-  
-    stars += '<i class="fa-regular fa-star" style="color: gray;"></i>';
-  }
-}
+      let stars = '';
+      for (let i = 0; i < 5; i++) {
+        if (i < e.rate) {
+
+          stars += '<i class="fa-solid fa-star" style="color: rgb(250, 230, 4);"></i>';
+        } else {
+
+          stars += '<i class="fa-regular fa-star" style="color: gray;"></i>';
+        }
+      }
       return `
     <div class="carousel-item ${index == 0 && " active"}">
       <div class="carousel-caption d-md-block position-relative p-0 mx-auto" style="width: 73vw;">
@@ -251,7 +245,6 @@ for (let i = 0; i < 5; i++) {
   }"></button>
     `;
     });
-
   </script>
 </body>
 

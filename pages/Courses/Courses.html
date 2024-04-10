@@ -29,12 +29,9 @@
             <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-success" href="../pages/Courses/Courses.html">Courses</a>
+            <a class="nav-link text-success" href="./Courses.html">Courses</a>
           </li>
-
-
         </ul>
-
       </div>
       <button class="user btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <i class="fa-solid fa-user fs-5 text-success rounded-circle bg-dark p-2"></i>
@@ -62,10 +59,10 @@
                 </div>
                 <p class="text-decoration-underline text-success" id="go-to-sign-in" style="cursor: pointer;">have
                   account?sign in</p>
+                <div class="modal-footer">
+                  <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">REGISTER</button>
+                </div>
               </form>
-            </div>
-            <div class="modal-footer">
-              <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">REGISTER</button>
             </div>
           </div>
           <div class="modal-content" id="sign-in">
@@ -75,7 +72,6 @@
             </div>
             <div class="modal-body">
               <form class="d-flex flex-column">
-
                 <div class="mb-3">
                   <label for="email" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
@@ -86,12 +82,13 @@
                 </div>
                 <p class="text-decoration-underline text-success" id="go-to-register" style="cursor: pointer;">don't
                   have account?register</p>
+                <div class="modal-footer">
+                  <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">SIGN
+                    IN</button>
+                </div>
               </form>
             </div>
-            <div class="modal-footer">
-              <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">SIGN
-                IN</button>
-            </div>
+
           </div>
         </div>
       </div>
@@ -114,7 +111,8 @@
           <p class="text-center fw-bold fs-5 my-4">Cycle Weeks </p>
           <div id="weeksContainer" class="p-1 m-auto"></div>
           <div id="daysContainer"></div>
-          <a class="btn-sub btn bg-success rounded-4 w-100 text-light fw-bold" href="./subscription.html">subscription</a>
+          <a class="btn-sub btn bg-success rounded-4 w-100 text-light fw-bold"
+            href="./subscription.html">subscription</a>
         </div>
       </div>
       <div class="col-md-8 ">

@@ -30,7 +30,7 @@
                         <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-success" href="../pages/Courses/Courses.html">Courses</a>
+                        <a class="nav-link text-success" href="./Courses.html">Courses</a>
                     </li>
 
 
@@ -68,12 +68,13 @@
                                 <p class="text-decoration-underline text-success" id="go-to-sign-in"
                                     style="cursor: pointer;">have
                                     account?sign in</p>
+                                <div class="modal-footer">
+                                    <button class="btn bg-success rounded-4 w-100 text-light fw-bold"
+                                        type="submit">REGISTER</button>
+                                </div>
                             </form>
                         </div>
-                        <div class="modal-footer">
-                            <button class="btn bg-success rounded-4 w-100 text-light fw-bold"
-                                type="submit">REGISTER</button>
-                        </div>
+
                     </div>
                     <div class="modal-content" id="sign-in">
                         <div class="modal-header">
@@ -96,12 +97,13 @@
                                 <p class="text-decoration-underline text-success" id="go-to-register"
                                     style="cursor: pointer;">don't
                                     have account?register</p>
+                                <div class="modal-footer">
+                                    <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">SIGN
+                                        IN</button>
+                                </div>
                             </form>
                         </div>
-                        <div class="modal-footer">
-                            <button class="btn bg-success rounded-4 w-100 text-light fw-bold" type="submit">SIGN
-                                IN</button>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -137,10 +139,11 @@
                     <div class="card p-3 bg-body-secondary text-white text-center opacity-75 shadow-sm">
                         <h3 class="text-dark w-100 fs-4 fw-bold">Register</h3>
                         <form>
-                            <input class="form-control form-control-lg mb-3" type="text" placeholder="Your Name">
-                            <input class="form-control form-control-lg mb-3" type="phone" placeholder="Phone">
-                            <input class="form-control form-control-lg mb-3" type="text" placeholder="Adress">
-                            <input class="form-control form-control-lg mb-3" type="text" placeholder="Visa">
+                            <input class="form-control form-control-lg mb-3" type="text" placeholder="Your Name"
+                                required>
+                            <input class="form-control form-control-lg mb-3" type="phone" placeholder="Phone" required>
+                            <input class="form-control form-control-lg mb-3" type="text" placeholder="Adress" required>
+                            <input class="form-control form-control-lg mb-3" type="text" placeholder="Visa" required>
                             <button class="btn bg-success rounded-4 w-100 text-light fw-bold"
                                 type="submit">subscription</button>
                         </form>
@@ -149,6 +152,7 @@
             </div>
         </div>
     </div>
+    <script src="../../navbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
     </script>
